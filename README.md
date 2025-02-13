@@ -1,6 +1,6 @@
 # API de Cadastro de Usuários
 
-Este projeto é uma API simples para cadastro de usuários, desenvolvida em Node.js com TypeScript. A API inclui operações CRUD (Create, Read, Update, Delete) e foi testada usando Jest.
+Este projeto simula a criação de uma API simples para cadastro de usuários, utilizando dados mocados. Foi desenvolvida em Node.js com TypeScript. A API inclui operações CRUD (Create, Read, Update, Delete) e foi testada usando Jest.
 
 ## Desenvolvedora
 
