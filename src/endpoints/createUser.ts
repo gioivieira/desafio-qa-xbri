@@ -17,11 +17,8 @@ router.post('/users', (req: Request, res: Response): void => {
 
     try {
         if (!name || !email) {
-            throw new Error('É obrigatório informar o nome e o email.')
+            throw new Error('É obrigatório informar o nome e o e-mail.')
         } 
-        if (typeof name !== 'string' || typeof email !== 'string') {
-            throw new Error('O nome e o email precisam ser strings.')
-        }
 
         users.push(newUser)
         res.status(201).send(newUser)

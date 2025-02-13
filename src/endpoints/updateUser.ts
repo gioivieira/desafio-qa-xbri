@@ -10,9 +10,6 @@ router.patch('/users/:id', (req: Request, res: Response) => {
     try {
         if (!name) {
             throw new Error('É obrigatório informar o nome atualizado.')
-        } 
-        if (typeof name !== 'string') {
-            throw new Error('O nome precisa ser uma string.')
         }
 
         const user = users.find((user) => user.id === id)
